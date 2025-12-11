@@ -1,0 +1,13 @@
+node_modules
+.next
+dist
+frontend/.next
+frontend/node_modules
+backend/node_modules
+*.log
+*.cache
+pnpm-lock.yaml
+package-lock.json
+*.env
+backend/dist
+
