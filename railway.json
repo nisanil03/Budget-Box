@@ -1,0 +1,21 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "services": [
+    {
+      "name": "budgetbox-backend",
+      "root": "backend",
+      "envs": {
+        "PORT": "4000",
+        "DEMO_EMAIL": "hire-me@anshumat.org",
+        "DEMO_PASSWORD": "HireMe@2025!"
+      },
+      "build": {
+        "command": "npm install && npm run build"
+      },
+      "deploy": {
+        "command": "npm run start"
+      }
+    }
+  ]
+}
+
